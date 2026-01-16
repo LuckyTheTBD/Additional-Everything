@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "ECE",
+    "TTT"
+  ],
+  "key": {
+    "T": [
+      "minecraft:totem_of_undying"
+    ],
+    "E": [
+      "minecraft:enchanted_golden_apple"
+    ],
+    "C": [
+      "minecraft:crying_obsidian"
+    ]
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:custom_data": {
+        "HB": 1
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1000000,
+        "animation": "spyglass",
+        "sound": "minecraft:entity.enderman.teleport",
+        "has_consume_particles": false
+      },
+      "minecraft:item_name": "Heart Tome",
+      "minecraft:item_model": "minecraft:written_book",
+      "minecraft:food": {
+	"nutrition": 0,
+	"saturation": 0,
+	"can_always_eat": true
+      }
+    },
+    "count": 1
+  }
+}

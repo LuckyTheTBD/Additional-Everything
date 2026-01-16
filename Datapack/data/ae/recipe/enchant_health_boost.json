@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "NYN",
+        "III"
+    ],
+    "key": {
+        "#": "minecraft:totem_of_undying",
+        "D": "minecraft:diamond_block",
+        "N": "minecraft:netherite_scrap",
+        "Y": "minecraft:nether_star",
+        "I": "minecraft:iron_block"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+          "minecraft:stored_enchantments": {
+            "ae:health_boost": 1
+          }
+        }
+
+    }
+}

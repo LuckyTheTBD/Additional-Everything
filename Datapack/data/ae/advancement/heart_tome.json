@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:custom_data": {
+              "HB": 1
+            },
+            "minecraft:consumable": {
+              "consume_seconds": 1000000,
+              "animation": "spyglass",
+              "sound": "minecraft:entity.enderman.teleport",
+              "has_consume_particles": false
+            },
+	    "minecraft:item_name": "Heart Tome",
+	    "minecraft:item_model": "minecraft:written_book",
+	    "minecraft:food": {
+	      "nutrition": 0,
+	      "saturation": 0,
+	      "can_always_eat": true
+	    }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ae:heart_tome"
+  }
+}

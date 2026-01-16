@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "luckypack:item/iron_shortsword"
+  },
+  "oversized_in_gui": true
+}
