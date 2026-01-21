@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "luckypack:item/elemental_sword"
-  },
-  "oversized_in_gui": true
-}
