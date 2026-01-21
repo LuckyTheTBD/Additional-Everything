@@ -1,1 +1,0 @@
-schedule function ae:timers/1s 1s

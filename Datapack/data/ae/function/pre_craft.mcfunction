@@ -1,1 +1,0 @@
-execute if block ~ ~-1 ~ minecraft:dispenser[facing=up] run function ae:craft
