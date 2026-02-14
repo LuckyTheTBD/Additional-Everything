@@ -1,10 +1,8 @@
 Version numbers go like this x.y.z.n for the DATAPACK
-X is the main release, this number will go up by 1 when I add a REALLY REALLY big update and add TONS of new content.
-Y is the release number, these updates will have a decently sized amount of new content, and will usually have a new structure or two.
-Z is a release of a small amount of content that isn't big enough for a Y increase.
-N is bugfixes, if you don't like bugs, this is the release number for you.
+X is a release that adds a ton of stuff
+Y is additional content
+Z is a bugfix
 
-For the RESOURCE pack the version numbers go like this x.y.z
-X is 25+ new models
-Y is 7+ new models
-Z is a few new models
+Version numbers go like this x.y for the RESOURCE PACK
+X is a big update, probably with 3d models and other models
+Y is an update with new models
