@@ -1,3 +1,13 @@
+IMPORTANT!!! Please give attribution in your datapack/resource pack somewhere when using my item textures/3d models!
+
+
+
+
+
+
+
+
+
 Version numbers go like this x.y.z.n for the DATAPACK
 
 X is a release that adds a ton of stuff
