@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 5,
+    "salt": 599171222
+  },
+  "structures": [
+    {
+      "structure": "ae:heavenly_island",
+      "weight": 1
+    }
+  ]
+}

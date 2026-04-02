@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "gn_chestplate",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "gn_chestplate",
+                    "amount": 4.5,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "gn_chestplate",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:item_model": "luckypack:gn_chest",
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "luckypack:gn",
+                  "dispensable": false
+                },
+                "minecraft:max_damage": 750,
+                "enchantments": {
+                  "minecraft:protection": 5,
+                  "ae:li/l_chestplate": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "minecraft:gn_chestplate"
+}

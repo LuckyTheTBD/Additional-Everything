@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "hyperion",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "hyperion",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": 
+                    {
+                      "type": "override",
+                      "value": {
+                        "color": "blue",
+                        "text": "1.6 Attack Speed"
+                      }
+                    }
+                  }
+                ],
+                "minecraft:item_model": "luckypack:hyperion",
+                "minecraft:max_damage": 2500,
+                "enchantments": {
+                  "ae:li/hyperion": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "minecraft:hyperion"
+}

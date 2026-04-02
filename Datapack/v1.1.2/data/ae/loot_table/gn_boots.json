@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "gn_boots",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "gn_boots",
+                    "amount": 4.5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "gn_boots",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:item_model": "luckypack:gn_boots",
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "luckypack:gn",
+                  "dispensable": false
+                },
+                "minecraft:max_damage": 750,
+                "minecraft:enchantments": {
+                  "ae:li/l_boots": 1,
+                  "minecraft:protection": 5,
+                  "minecraft:depth_strider": 4,
+                  "minecraft:soul_speed": 4
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "minecraft:gn_boots"
+}

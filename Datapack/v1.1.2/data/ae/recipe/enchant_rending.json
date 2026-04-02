@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "DND",
+    "IGI"
+  ],
+  "key": {
+    "I": [
+      "minecraft:iron_sword"
+    ],
+    "G": [
+      "minecraft:golden_sword"
+    ],
+    "D": [
+      "minecraft:diamond_sword"
+    ],
+    "N": [
+      "minecraft:netherite_sword"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "ae:rending": 1
+      }
+    }
+  }
+}
