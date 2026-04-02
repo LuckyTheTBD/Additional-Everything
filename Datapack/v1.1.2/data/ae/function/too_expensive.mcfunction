@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.components."minecraft:repair_cost" run item modify entity @s weapon.mainhand ae:too_expensive

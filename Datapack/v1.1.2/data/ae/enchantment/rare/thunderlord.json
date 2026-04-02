@@ -1,0 +1,50 @@
+{
+  "description": {
+    "text": "Thunderlord",
+    "bold": true,
+    "color": "aqua"
+  },
+  "exclusive_set": "#ae:exclusive_weapon_enchants",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.33
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "ae:ench/thunderlord"
+            },
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "minecraft:player_attack",
+              "min_damage": 5,
+              "max_damage": 8
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

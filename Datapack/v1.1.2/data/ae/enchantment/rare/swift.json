@@ -1,0 +1,38 @@
+{
+  "description": {
+    "text": "Swift",
+    "color": "aqua",
+    "bold": true
+  },
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ae:ench/swift"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ae:ench/speed_ench"
+        }
+      }
+    ]
+  }
+}

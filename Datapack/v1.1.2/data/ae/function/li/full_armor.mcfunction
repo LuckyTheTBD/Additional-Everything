@@ -1,0 +1,10 @@
+effect give @s minecraft:water_breathing 1 1 true
+effect give @s minecraft:dolphins_grace 1 1 true
+effect give @s minecraft:strength 1 2 true
+effect give @s minecraft:resistance 1 1 true
+effect give @s minecraft:speed 1 2 true
+effect give @s minecraft:haste 1 2 true
+effect give @s minecraft:invisibility 1 1 true
+effect give @s minecraft:fire_resistance 1 1 true
+effect give @s minecraft:luck 1 0 true
+scoreboard players set @s la 1

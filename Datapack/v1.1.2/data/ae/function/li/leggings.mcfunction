@@ -1,0 +1,2 @@
+effect give @s speed 1 1 true
+effect give @s haste 1 1 true
