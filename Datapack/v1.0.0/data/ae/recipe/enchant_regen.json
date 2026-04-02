@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " D ",
+        "D#D",
+        " D "
+    ],
+    "key": {
+        "#": "minecraft:totem_of_undying",
+        "D": "minecraft:enchanted_golden_apple"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+          "minecraft:stored_enchantments": {
+            "ae:regen": 1
+          }
+        }
+
+    }
+}

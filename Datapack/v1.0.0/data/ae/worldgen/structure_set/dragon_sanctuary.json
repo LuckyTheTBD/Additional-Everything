@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 73131289,
+    "separation": 50,
+    "spacing": 90,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "ae:dragon_sanctuary",
+      "weight": 1
+    }
+  ]
+}

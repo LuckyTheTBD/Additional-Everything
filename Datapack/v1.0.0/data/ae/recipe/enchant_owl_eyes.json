@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE"
+  ],
+  "key": {
+    "E": [
+      "minecraft:ender_eye"
+    ],
+    "C": [
+      "minecraft:ender_chest"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "ae:owl_eyes": 1
+      }
+    }
+  }
+}
