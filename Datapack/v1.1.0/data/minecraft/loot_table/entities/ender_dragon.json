@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:enchanted_book",
+                "minecraft:max_damage": 3000,
+                "minecraft:enchantments": {
+                  "minecraft:mending": 1
+                },
+                "minecraft:item_name": {
+                  "text": "Enchantment Scroll",
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Mend this scroll to full",
+                    "color": "green"
+                  },
+                  {
+                    "text": "durability and right click it",
+                    "color": "green"
+                  },
+                  {
+                    "text": "to enchant it with a random",
+                    "color": "green"
+                  },
+                  {
+                    "text": "legendary or rare",
+                    "color": "green"
+                  },
+                  {
+                    "text": "enchantment",
+                    "color": "green"
+                  }
+                ],
+                "minecraft:damage": 2999,
+                "minecraft:consumable": {
+                  "consume_seconds": 1000000,
+                  "animation": "none",
+                  "has_consume_particles": false
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:custom_data": {
+                  "escroll": true
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/ender_dragon"
+}
