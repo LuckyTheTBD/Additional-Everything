@@ -1,0 +1,111 @@
+Make loot table for escrolls
+Update wiki with new enchantments
+Change wiki to say compound has 60% power instead of 40%
+
+
+
+things to do when adding custom enchants
+update tags in ae/tags/enchantment/(rare or legendary)_enchants.json
+update escroll.json loot table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in release 1.1.0
+
+
+DATAPACK CHANGELOG
+• Made Lifesteal use the custom heal library by XenBelOr
+github.com/XanBelOr/Minecraft-Simple-Custom-Heal
+
+• Added Legendary Enchant Combo
+• Added Legendary Enchant Berserk
+
+• Added Rare Enchant Lava Walker
+• Added Rare Enchant Swift
+• Added Rare Enchant Endurance
+• Added Rare Enchant Reflex
+
+• Made armor only able to have one Legendary and one Rare enchantment.
+• Made the Legendary enchant Compound have 60% power of max level Density and Breach
+• Made all Legendary and Rare enchants give full power at level 1 instead of having higher levels (like original)
+
+• Removed the code in tick.mcfunction that was for a planned rare enchantment that was later decided to be removed
+• Removed Strength Essence
+• Removed Dragon Armor
+• Removed Mythic Blade
+• Removed Protective enchant
+
+• Added /trigger too_expensive
+    Look at the wiki for its usage.
+
+• Added Hyperion (see wiki for more details)
+• Added the legendary armor (see wiki for more details)
+
+
+RESOURCE PACK CHANGELOG
+
+• Added Hyperion 3d model
+
+
+
+
+
+
+
+
+
+
+
+
+CHANGELOG FORMAT
+• Head with DATAPACK CHANGELOG in bold text
+
+• Any changes to libraries/new libraries
+
+• New Legendary enchantments
+
+• New rare enchantments
+
+• Stuff to do with enchantments e.g. change to power of Compound enchantment
+
+• Removed Stuff
+
+• Any new /trigger commands
+
+• New Items/recipes
+
+
+• head with RESOURCE PACK CHANGELOG in bold text
+
+• Removed stuff in the rp
+
+• Changed stuff in the rp
+
+• New stuff in the rp
