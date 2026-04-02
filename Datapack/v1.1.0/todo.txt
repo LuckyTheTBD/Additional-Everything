@@ -7,7 +7,7 @@ Change wiki to say compound has 60% power instead of 40%
 things to do when adding custom enchants
 update tags in ae/tags/enchantment/(rare or legendary)_enchants.json
 update escroll.json loot table
-
+update data/minecraft/tags/enchantment/tooltip_order.json
 
 
 
