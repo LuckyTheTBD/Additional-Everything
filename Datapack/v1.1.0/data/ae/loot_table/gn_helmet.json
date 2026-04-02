@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "gn_helmet",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "gn_helmet",
+                    "amount": 4.5,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "gn_helmet",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:item_model": "luckypack:gn_helmet",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "luckypack:gn",
+                  "dispensable": false
+                },
+                "minecraft:max_damage": 750,
+                "enchantments": {
+                  "minecraft:protection": 5,
+                  "aqua_affinity": 2,
+                  "respiration": 4
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "minecraft:gn_helmet"
+}

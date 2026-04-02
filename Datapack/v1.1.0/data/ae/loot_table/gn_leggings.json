@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "gn_leggings",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "gn_leggings",
+                    "amount": 4.5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "gn_leggings",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:item_model": "luckypack:gn_leg",
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "luckypack:gn",
+                  "dispensable": false
+                },
+                "minecraft:max_damage": 750,
+                "enchantments": {
+                  "minecraft:protection": 5,
+                  "swift_sneak": 4
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "minecraft:gn_leggings"
+}

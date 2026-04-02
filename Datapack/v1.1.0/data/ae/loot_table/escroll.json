@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly",
+          "options": [
+            "ae:legendary/berserk",
+            "ae:legendary/combo",
+            "ae:legendary/compound",
+            "ae:legendary/first_strike",
+            "ae:legendary/heavenly",
+            "ae:legendary/invulnerable",
+            "ae:rare/endurance",
+            "ae:rare/lava_walker",
+            "ae:rare/reflex",
+            "ae:rare/swift",
+            "ae:rare/thunderlord",
+            "ae:rare/weightless"
+          ],
+          "only_compatible": false
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "minecraft:escroll"
+}

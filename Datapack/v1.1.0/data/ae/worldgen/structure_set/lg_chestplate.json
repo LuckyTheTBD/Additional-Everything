@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 53,
+    "spread": 53,
+    "count": 1,
+    "preferred_biomes": "#minecraft:is_overworld",
+    "salt": 4649
+  },
+  "structures": [
+    {
+      "structure": "ae:lg_chestplate",
+      "weight": 1
+    }
+  ]
+}
