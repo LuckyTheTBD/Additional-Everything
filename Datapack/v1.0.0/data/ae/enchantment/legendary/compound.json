@@ -1,0 +1,49 @@
+{
+  "description": {
+    "text": "Compound",
+    "color": "gold",
+    "bold": true
+  },
+  "exclusive_set": "#ae:mace_exclusive",
+  "supported_items": "#minecraft:enchantable/mace",
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:smash_damage_per_fallen_block": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.25,
+            "per_level_above_first": 0.25
+          }
+        }
+      }
+    ],
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.06,
+            "per_level_above_first": -0.06
+          }
+        }
+      }
+    ]
+  }
+}

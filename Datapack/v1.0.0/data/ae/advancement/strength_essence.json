@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 1000000,
+              "animation": "drink",
+              "has_consume_particles": false
+            },
+            "minecraft:item_name": {
+              "text": "Strength Essence",
+              "color": "gold"
+            },
+            "minecraft:item_model": "minecraft:orange_dye",
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ae:strength_essence",
+    "experience": 0
+  }
+}

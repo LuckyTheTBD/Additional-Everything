@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "luckypack:item/cloud_sword"
+  },
+  "oversized_in_gui": true
+}

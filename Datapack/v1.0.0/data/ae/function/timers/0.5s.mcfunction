@@ -1,0 +1,1 @@
+execute at @e[tag=master_altar] run function ae:master_altar
