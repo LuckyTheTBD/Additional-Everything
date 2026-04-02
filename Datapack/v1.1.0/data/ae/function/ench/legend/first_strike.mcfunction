@@ -1,0 +1,2 @@
+execute if score @s first_strike matches ..299 run scoreboard players add @s first_strike 1
+execute if score @s first_strike matches 300 run attribute @s attack_damage modifier add first_strike 0.75 add_multiplied_total

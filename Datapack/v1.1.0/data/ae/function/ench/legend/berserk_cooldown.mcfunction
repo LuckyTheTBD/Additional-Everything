@@ -1,0 +1,1 @@
+scoreboard players remove @s berserk_cooldown 1

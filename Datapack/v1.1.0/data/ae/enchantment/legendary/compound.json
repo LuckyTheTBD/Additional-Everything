@@ -1,0 +1,55 @@
+{
+  "description": {
+    "text": "Compound",
+    "color": "gold",
+    "bold": true
+  },
+  "exclusive_set": [
+    "ae:legendary/combo",
+    "ae:legendary/first_strike",
+    "ae:rare/thunderlord",
+    "minecraft:density",
+    "minecraft:breach"
+  ],
+  "supported_items": "#minecraft:enchantable/mace",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:smash_damage_per_fallen_block": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.8,
+            "per_level_above_first": 1.8
+          }
+        }
+      }
+    ],
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.378,
+            "per_level_above_first": -0.378
+          }
+        }
+      }
+    ]
+  }
+}
