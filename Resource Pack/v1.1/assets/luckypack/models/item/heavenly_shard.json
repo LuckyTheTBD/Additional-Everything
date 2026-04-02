@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "luckypack:item/heavenly_shard"
+  },
+  "oversized_in_gui": true
+}

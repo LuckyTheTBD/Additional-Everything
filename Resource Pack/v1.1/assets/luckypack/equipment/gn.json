@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+	"texture": "luckypack:gn_norm"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+	"texture": "luckypack:gn_leg"
+      }
+    ]
+  }
+}
